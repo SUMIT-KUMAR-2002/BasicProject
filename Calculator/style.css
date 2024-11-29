@@ -1,0 +1,60 @@
+h1{
+  color:antiquewhite;
+  background-color: rgb(144, 147, 146);
+  display: inline;
+  width: 50%;
+  margin-left: 41%;
+ text-decoration: rgb(158, 112, 20);
+}
+
+h1:hover{
+  color: blueviolet;
+  background-color: rgb(120, 124, 101);
+
+}
+
+table { 
+  border: 2px solid purple;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5px;
+  justify-content: center;
+  border-top: 2px solid red;
+  border-right: 1px dashed green;
+  border-bottom: 2px dotted blue;
+  border-left: 1px double purple;
+} 
+
+input[type="button"] { 
+  width: 100%; 
+  padding: 20px 40px; 
+  background-color:rgb(229, 240, 186); 
+  color: rgb(21, 21, 21); 
+  font-size: 24px; 
+  transition: transform 0.1s ease;
+} 
+
+input[type="button"].active {
+  transform: scale(0.9);
+  box-shadow: 0 4px #666;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(142, 90, 192);
+  color: rgb(251, 249, 253);
+  cursor:pointer;
+}
+
+
+input[type="text"] { 
+  padding: 20px 30px; 
+  font-size: 24px;  
+  border: 2px solid black;
+  text-align: right; 
+  color: rgb(20, 12, 2);
+  background-color: bisque;
+} 
+
+input[type="text"]:hover{
+  background-color: aliceblue;
+}
